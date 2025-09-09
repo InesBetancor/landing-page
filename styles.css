@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+  background: #1b2533;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px 0 48px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 24px;
+  font-size: 1rem;
+}
+
+.main-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 64px 48px;
+  gap: 48px;
+}
+
+.hero {
+  max-width: 400px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.subtext {
+  color: #b0b8c1;
+  font-size: 1rem;
+  margin-bottom: 1.5em;
+}
+
+.signup-btn {
+  background: #339af0;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.image-placeholder {
+  background: #7b8794;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  font-size: 1rem;
+}
